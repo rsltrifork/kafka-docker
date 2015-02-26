@@ -1,0 +1,34 @@
+kafka:
+  build: kafka
+  command: sh start-zk-kafka.sh
+  ports:
+    - "9092:9092"
+    - "2181:2181"
+  links:
+    - elasticsearch
+  volumes_from:
+    - logstash
+logstash:
+  build: logstash
+  command: logstash-1.4.2/bin/logstash -f logstash-1.4.2/ivan.conf
+  links:
+    - elasticsearch
+  volumes:
+    - volumes/logs:logs
+elasticsearch:
+  build: elasticsearch
+  ports:
+    - "9200"
+    - "5000"
+  volumes:
+    - volumes/logs:logs
+  command: elasticsearch-1.4.4/bin/elasticsearch
+kibana:
+  build: kibana
+  ports:
+    - "5601"
+  links:
+    - elasticsearch
+  volumes_from:
+    - logstash
+  command: watch kibana-4.0.0-linux-x64/bin/kibana

@@ -1,0 +1,42 @@
+[2015-02-26 15:55:12,206][INFO ][node                     ] [Doug Ramsey] version[1.4.4], pid[1], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-26 15:55:12,206][INFO ][node                     ] [Doug Ramsey] initializing ...
+[2015-02-26 15:55:12,209][INFO ][plugins                  ] [Doug Ramsey] loaded [], sites []
+[2015-02-26 15:55:14,354][INFO ][node                     ] [Doug Ramsey] initialized
+[2015-02-26 15:55:14,354][INFO ][node                     ] [Doug Ramsey] starting ...
+[2015-02-26 15:55:14,425][INFO ][transport                ] [Doug Ramsey] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.17.0.6:9300]}
+[2015-02-26 15:55:14,437][INFO ][discovery                ] [Doug Ramsey] elasticsearch/F7lcViFXSkOflK-QoDj8nA
+[2015-02-26 15:55:17,483][INFO ][cluster.service          ] [Doug Ramsey] detected_master [Aquarius][DXN5EokERAC_Jzfvx-PwTQ][aaec12dbad7a][inet[/172.17.0.3:9300]], added {[Aquarius][DXN5EokERAC_Jzfvx-PwTQ][aaec12dbad7a][inet[/172.17.0.3:9300]],}, reason: zen-disco-receive(from master [[Aquarius][DXN5EokERAC_Jzfvx-PwTQ][aaec12dbad7a][inet[/172.17.0.3:9300]]])
+[2015-02-26 15:55:17,533][INFO ][http                     ] [Doug Ramsey] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.17.0.6:9200]}
+[2015-02-26 15:55:17,533][INFO ][node                     ] [Doug Ramsey] started
+[2015-02-26 15:55:28,478][INFO ][node                     ] [Doug Ramsey] stopping ...
+[2015-02-26 15:55:28,497][INFO ][node                     ] [Doug Ramsey] stopped
+[2015-02-26 15:55:28,498][INFO ][node                     ] [Doug Ramsey] closing ...
+[2015-02-26 15:55:28,501][INFO ][node                     ] [Doug Ramsey] closed
+[2015-02-26 15:56:03,666][INFO ][node                     ] [Mercurio] version[1.4.4], pid[1], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-26 15:56:03,667][INFO ][node                     ] [Mercurio] initializing ...
+[2015-02-26 15:56:03,670][INFO ][plugins                  ] [Mercurio] loaded [], sites []
+[2015-02-26 15:56:06,175][INFO ][node                     ] [Mercurio] initialized
+[2015-02-26 15:56:06,175][INFO ][node                     ] [Mercurio] starting ...
+[2015-02-26 15:56:06,250][INFO ][transport                ] [Mercurio] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.17.0.11:9300]}
+[2015-02-26 15:56:06,261][INFO ][discovery                ] [Mercurio] elasticsearch/DwAz2gppRfqylR0MiLGvww
+[2015-02-26 15:56:10,026][INFO ][cluster.service          ] [Mercurio] new_master [Mercurio][DwAz2gppRfqylR0MiLGvww][9d513e8bc04e][inet[/172.17.0.11:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-26 15:56:10,038][INFO ][http                     ] [Mercurio] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.17.0.11:9200]}
+[2015-02-26 15:56:10,038][INFO ][node                     ] [Mercurio] started
+[2015-02-26 15:56:10,066][INFO ][gateway                  ] [Mercurio] recovered [0] indices into cluster_state
+[2015-02-26 15:56:16,199][INFO ][node                     ] [Mercurio] stopping ...
+[2015-02-26 15:56:16,212][INFO ][node                     ] [Mercurio] stopped
+[2015-02-26 15:56:16,213][INFO ][node                     ] [Mercurio] closing ...
+[2015-02-26 15:56:16,217][INFO ][node                     ] [Mercurio] closed
+[2015-02-26 15:56:28,282][INFO ][node                     ] [Iridia] version[1.4.4], pid[1], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-02-26 15:56:28,283][INFO ][node                     ] [Iridia] initializing ...
+[2015-02-26 15:56:28,288][INFO ][plugins                  ] [Iridia] loaded [], sites []
+[2015-02-26 15:56:32,613][INFO ][node                     ] [Iridia] initialized
+[2015-02-26 15:56:32,614][INFO ][node                     ] [Iridia] starting ...
+[2015-02-26 15:56:32,704][INFO ][transport                ] [Iridia] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.17.0.17:9300]}
+[2015-02-26 15:56:32,718][INFO ][discovery                ] [Iridia] elasticsearch/H9iFn-RERda26vG85M-ddw
+[2015-02-26 15:56:36,484][INFO ][cluster.service          ] [Iridia] new_master [Iridia][H9iFn-RERda26vG85M-ddw][64bb6672da46][inet[/172.17.0.17:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-26 15:56:36,496][INFO ][http                     ] [Iridia] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.17.0.17:9200]}
+[2015-02-26 15:56:36,497][INFO ][node                     ] [Iridia] started
+[2015-02-26 15:56:36,600][INFO ][gateway                  ] [Iridia] recovered [0] indices into cluster_state
+[2015-02-26 15:56:44,048][INFO ][cluster.metadata         ] [Iridia] [logstash-2015.02.26] creating index, cause [auto(bulk api)], shards [5]/[1], mappings [_default_]
+[2015-02-26 15:56:44,495][INFO ][cluster.metadata         ] [Iridia] [logstash-2015.02.26] update_mapping [logs] (dynamic)
